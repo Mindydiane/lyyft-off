@@ -9,9 +9,9 @@ type Query{
   "A track is a group of Modules that teaches about a specific topic"
   type Track {
     id: ID!
-    "the title"
+    "the title not null"
     title: String!
-    "the main author"
+    "the main author not null"
     author: Author!
     "the main illustration to display in track card or track page detail"
     thumbnail: String
