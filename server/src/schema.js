@@ -1,4 +1,4 @@
-const { gql } = require("apollo-server");
+const { gql } = require('apollo-server');
 
 const typeDefs = gql`
 type Query{
@@ -24,7 +24,9 @@ type Query{
   "Author of a complete Track"
   type Author {
     id: ID!
+    "Author's first and last name"
     name: String!
+    "Author's profile picture url"
     photo: String
   }
 `;
