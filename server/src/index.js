@@ -3,7 +3,7 @@ const typeDefs = require("./schema");
 
 const mocks = {
   Query: () => ({
-    tracksForHome: () => [...new Array(6)],
+    tracksForHome: () => [...new Array(7)],
   }),
   Track: () => ({
     id: () => "track_01",
