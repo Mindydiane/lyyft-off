@@ -1,5 +1,8 @@
 import React from 'react';
 import { Layout } from '../components';
+import { gql } from '@apollo/client';
+
+const TRACKS = gql ``;
 
 /**
  * Tracks Page is the Catstronauts home page.
